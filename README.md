@@ -5,9 +5,7 @@ This repository contains just the code used to assimilate the Southern Annular M
 King, J., K.J. Anchukaitis, K. Allen, T. Vance, A. Hessl, Trends and variability in the Southern Annular Mode during the Common Era, Nature Communications, 14, 2324, doi:10.1038/s41467-023-37643-1, 2023.
 
 ## Contents
-This repository holds just the code used to implement the analyses and figures in the paper, not including the DASH core and PDSI proxy systems model.  For the complete code and data, which includes the NetCDF files of the input and output, please see the Zenodo directory [here](https://zenodo.org/records/8156908). 
-
-* `Analysis`: This folder contains the code used to implement the analyses, as well as all intermediate output files produced by the code. We recommend users begin with the `runAnalysis.m` script, which demonstrates how to run all the code required to reproduce the analysis.
+This repository holds just the code used to implement the analyses and figures in the paper, not including the DASH core and PDSI proxy systems model.  For the complete code and data, which includes the NetCDF files of the input and output, please see the Zenodo directory [here](https://zenodo.org/records/8156908).  The `Analysis` folder in this repository contains the code used to implement the analyses, but not the intermediate output files produced by the code.  Please visit the complete Zenodo repository [here](https://zenodo.org/records/8156908) for input data, intermediate files, output, and external supporting programs including the version of DASH used in this paper. 
 
 ## Code Dependencies
 You will need Matlab 2020b or higher to run the code.
