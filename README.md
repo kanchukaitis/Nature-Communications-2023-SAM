@@ -1,4 +1,4 @@
-# SAM Assimilation
+# Southern Annular Mode (SAM) Paleoclimate Data Assimilation
 This repository contains just the code used to assimilate the Southern Annular Mode index over the Common Era from King et al. (2022).  For the complete repository, which includes the external or ancillary code for doing the assimilation as well as the input and output data files and the final reconstruction (approximately 8GB), please visit the complete Zenodo repository [here](https://zenodo.org/records/8156908). 
 
 ## Citation
