@@ -9,11 +9,6 @@ This repository holds just the code used to implement the analyses and figures i
 
 * `Analysis`: This folder contains the code used to implement the analyses, as well as all intermediate output files produced by the code. We recommend users begin with the `runAnalysis.m` script, which demonstrates how to run all the code required to reproduce the analysis.
 
-* `Figures and Tables`: This folder contains the code that produces the figures, tables, and statistics presented in the paper. It also contains the raw figure files. We recommend users begin with the `figuresAndTables.m` script, which demonstrates how to run all the code required to reproduce the figures, tables, and statistics.
-
-We note that users can find additional details on the folders by reading the `Contents.md` file found in each folder. These are plain-text markdown files that provide additional instructions for implementing the code.
-
-
 ## Code Dependencies
 You will need Matlab 2020b or higher to run the code.
 
@@ -22,3 +17,5 @@ Several of the folders rely on code or output files from other folders in the re
 * Several of the sections in the `Analysis` folder rely on raw data in the `Input Data` folder. You can find additional details in the `runAnalysis.m` script in the `Analysis` folder.
 
 * All of the functions in the `Figures and Tables` folder rely on output files located in the `Analysis` folder. Thus, you will need to download the `Analysis` folder to reproduce the figures. Additional details can be found in the `figuresAndTables.m` script in the `Figures and Tables` folder.
+
+* Once again, for the complete code and data, which includes the NetCDF files of the input and output, please see the Zenodo directory [here](https://zenodo.org/records/8156908).  
